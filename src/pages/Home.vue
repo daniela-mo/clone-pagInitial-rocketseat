@@ -53,31 +53,27 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    img {
-      width: 850px;
-      height: 950px;
-      position: relative;
-    }
+    width: 90%;
+    margin: 0 auto;
     &__text {
-      margin-right: 10px;
+      // margin-right: 10px;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
+      // align-items: flex-start;
       &__span {
-        width: 600px;
+        width: 00px;
         margin-bottom: 45px;
         span {
-          font-size: 25px;
+          font-size: 18px;
           color: #04d35c;
           font-family: "Roboto", sans-serif;
         }
       }
       &__h1 {
-        width: 800px;
+        width: 580px;
         h1 {
           font-family: "Roboto", sans-serif;
-          font-size: 70px;
+          font-size: 56px;
           color: #e1e1e6;
           line-height: 100%;
         }
@@ -94,13 +90,16 @@ export default {
       }
       &__button {
         margin-top: 40px;
-        padding: 25px 50px;
+        // padding: 25px 50px;
+
         border: none;
         border-radius: 5px;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold;
         color: #e1e1e6;
         background: #8257e5;
+        width: 266px;
+        height: 64px;
         font-family: "Roboto", sans-serif;
       }
     }
