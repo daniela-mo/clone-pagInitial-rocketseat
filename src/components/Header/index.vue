@@ -15,7 +15,9 @@
           </ul>
         </div>
         <div class="header__content__buttons">
-          <button class="header__content__buttons__cadastro">CADASTRAR</button>
+          <button class="header__content__buttons__cadastro">
+            CADASTRAR
+          </button>
           <button class="header__content__buttons__login">ENTRAR</button>
         </div>
       </div>
@@ -29,8 +31,8 @@
   height: 105px;
   &__content {
     display: flex;
-    width: 50%;
-    justify-content: space-around;
+    width: 80%;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     &__img {

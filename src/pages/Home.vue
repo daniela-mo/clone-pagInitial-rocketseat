@@ -1,15 +1,15 @@
 <template>
   <section class="container">
-    <div class="home">
-      <div class="home__content">
-        <div class="home__content__text">
-          <div class="home__content__text__span">
+    <div class="container__home">
+      <div class="container__home__content">
+        <div class="container__home__content__text">
+          <div class="container__home__content__text__span">
             <span> Bem-vindo(a) ao futuro</span>
           </div>
-          <div class="home__content__text__h1">
+          <div class="container__home__content__text__h1">
             <h1>Seu ecossistema para aprender e evoluir em programação</h1>
           </div>
-          <div class="home__content__text__p">
+          <div class="container__home__content__text__p">
             <p>
               Embarque no foguete com milhares de devs para aprender
               desenvolvimento web, evoluir de forma contínua e se manter
@@ -17,16 +17,15 @@
             </p>
           </div>
 
-          <button class="home__content__text__button">
+          <button class="container__home__content__text__button">
             EMBARCAR NO FOGUETE
           </button>
         </div>
-        <div class="home__content__img">
-          <img
-            src="@/assets/rocketseat-students.png"
-            alt="Estudantes da Rocketseat"
-          />
-        </div>
+
+        <img
+          src="@/assets/rocketseat-students.png"
+          alt="Estudantes da Rocketseat"
+        />
       </div>
     </div>
     <Studants />
@@ -43,64 +42,64 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.home {
+.container__home {
   display: flex;
   width: 100%;
+
   height: 100%;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.123);
   &__content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    img {
-      width: 850px;
-      height: 950px;
-      position: relative;
-    }
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
     &__text {
-      margin-right: 10px;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
       &__span {
-        width: 600px;
+        width: 300px;
         margin-bottom: 45px;
         span {
-          font-size: 25px;
+          font-size: 22px;
           color: #04d35c;
           font-family: "Roboto", sans-serif;
         }
       }
       &__h1 {
-        width: 800px;
+        width: 580px;
         h1 {
           font-family: "Roboto", sans-serif;
-          font-size: 70px;
+          font-size: 56px;
           color: #e1e1e6;
           line-height: 100%;
         }
       }
       &__p {
-        width: 590px;
+        width: 530px;
         margin-top: 20px;
         p {
           font-family: "Roboto", sans-serif;
-          font-size: 22px;
+          font-size: 20px;
           color: #e1e1e6;
           line-height: 150%;
         }
       }
       &__button {
         margin-top: 40px;
-        padding: 25px 50px;
+        // padding: 25px 50px;
+
         border: none;
         border-radius: 5px;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold;
         color: #e1e1e6;
         background: #8257e5;
+        width: 266px;
+        height: 64px;
         font-family: "Roboto", sans-serif;
       }
     }
