@@ -48,7 +48,6 @@
 <style lang="scss" scoped>
 .container {
   background: var(--darker-gradient-left);
-
   &__content {
     display: flex;
     max-width: 1170px;

@@ -46,6 +46,7 @@ import Evolution from "@/components/Evolution";
 import Enterprise from "@/components/Enterprise";
 import Content from "@/components/Content";
 import EventsRocket from "@/components/EventsRocket";
+
 export default {
   components: {
     Studants,
