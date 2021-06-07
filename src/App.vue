@@ -30,10 +30,11 @@ export default {
   --color-light-silver: #adadad52;
   --shape-hover: #29292e;
   --darker-gradient-right: linear-gradient(270deg, #09090a, #121214);
+  --darker-gradient-left: linear-gradient(270deg, #121214, #09090a);
   --primary-gradient-left: linear-gradient(
     90deg,
     #8257e6,
-    rgba(130, 87, 230, 0.25)
+    rgba(130, 87, 230, 0.25) ;
   );
 }
 
