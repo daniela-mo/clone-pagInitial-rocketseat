@@ -37,7 +37,7 @@
 <style lang="scss" scoped>
 .container {
   background: #121214;
-
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.123);
   &__studants {
     display: flex;
     width: 80%;
@@ -45,7 +45,6 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 0 auto;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.123);
     &__top {
       width: 100%;
       justify-content: space-between;
@@ -63,6 +62,7 @@
     }
     &__bottom {
       display: flex;
+      margin-bottom: 10%;
       justify-content: center;
       &__dates {
         display: flex;

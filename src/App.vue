@@ -29,6 +29,7 @@ export default {
   --color-text: #fff;
   --color-light-silver: #adadad52;
   --shape-hover: #29292e;
+  --darker-gradient-right: linear-gradient(270deg, #09090a, #121214);
   --primary-gradient-left: linear-gradient(
     90deg,
     #8257e6,

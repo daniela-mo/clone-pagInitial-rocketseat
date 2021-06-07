@@ -29,14 +29,32 @@
       </div>
     </div>
     <Studants />
+    <Stage />
+    <Results />
+    <Evolution />
+    <Enterprise />
+    <Content />
+    <EventsRocket />
   </section>
 </template>
 
 <script>
 import Studants from "@/components/Studants";
+import Stage from "@/components/Stage";
+import Results from "@/components/Results";
+import Evolution from "@/components/Evolution";
+import Enterprise from "@/components/Enterprise";
+import Content from "@/components/Content";
+import EventsRocket from "@/components/EventsRocket";
 export default {
   components: {
     Studants,
+    Stage,
+    Results,
+    Evolution,
+    Enterprise,
+    Content,
+    EventsRocket,
   },
 };
 </script>
@@ -45,7 +63,6 @@ export default {
 .container__home {
   display: flex;
   width: 100%;
-
   height: 100%;
   justify-content: center;
   align-items: center;
