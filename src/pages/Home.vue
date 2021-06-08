@@ -35,6 +35,7 @@
     <Enterprise />
     <Content />
     <EventsRocket />
+    <Acount />
   </section>
 </template>
 
@@ -46,6 +47,7 @@ import Evolution from "@/components/Evolution";
 import Enterprise from "@/components/Enterprise";
 import Content from "@/components/Content";
 import EventsRocket from "@/components/EventsRocket";
+import Acount from "@/components/Acount";
 
 export default {
   components: {
@@ -56,6 +58,7 @@ export default {
     Enterprise,
     Content,
     EventsRocket,
+    Acount,
   },
 };
 </script>
@@ -73,7 +76,7 @@ export default {
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    max-width: 1170px;
+    max-width: 1120px;
     margin: 0 auto;
     &__text {
       display: flex;

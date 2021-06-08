@@ -36,6 +36,7 @@ export default {
     #8257e6,
     rgba(130, 87, 230, 0.25) ;
   );
+  --darke-gradient: linear-gradient(90deg, #202024, rgba(32, 32, 36, 0.2));
 }
 
 .container {

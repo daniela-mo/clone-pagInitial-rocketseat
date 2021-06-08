@@ -32,16 +32,16 @@
   &__content {
     display: flex;
     width: 80%;
-    max-width: 1170px;
+    max-width: 1120px;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     &__img {
       display: flex;
-      margin: 16px 0 18px 20px;
+      margin: 16px 0 18px 0px;
       img {
-        width: 250px;
-        height: 55px;
+        width: 180px;
+        height: 44px;
       }
     }
     &__text {
@@ -56,9 +56,13 @@
           a {
             text-decoration: none;
             color: #5b5b62;
-            font-size: 20px;
+            font-size: 16px;
             font-family: "Roboto", sans-serif;
             font-weight: 400;
+            a:hover {
+              color: #fff;
+              font-weight: bold;
+            }
           }
         }
       }
@@ -72,7 +76,7 @@
         color: var(--color-text);
         margin: 0 20px;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 12px;
       }
       &__login {
         background: #8257e5;

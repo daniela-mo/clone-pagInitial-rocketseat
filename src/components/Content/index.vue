@@ -50,7 +50,7 @@
   background: var(--darker-gradient-left);
   &__content {
     display: flex;
-    max-width: 1170px;
+    max-width: 1120px;
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;
