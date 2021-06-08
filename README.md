@@ -1,4 +1,4 @@
-# edtech2
+# Rocketseat-clone
 
 ## Project setup
 ```

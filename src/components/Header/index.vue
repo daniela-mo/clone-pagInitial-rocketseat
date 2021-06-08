@@ -31,8 +31,9 @@
   height: 105px;
   &__content {
     display: flex;
-    width: 90%;
-    justify-content: space-around;
+    width: 80%;
+    max-width: 1170px;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     &__img {
