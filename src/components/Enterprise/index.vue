@@ -28,7 +28,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.123);
   &__enterprise {
     display: flex;
-    max-width: 1170px;
+    max-width: 1120px;
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;

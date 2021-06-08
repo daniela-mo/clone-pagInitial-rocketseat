@@ -96,7 +96,7 @@
   &__results {
     display: flex;
     width: 80%;
-    max-width: 1170px;
+    max-width: 1120px;
     flex-direction: column;
     align-items: flex-start;
     margin: 0 auto;

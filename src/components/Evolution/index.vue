@@ -52,7 +52,7 @@
   background: var(--darker-gradient-right);
   &__evolution {
     display: flex;
-    max-width: 1170px;
+    max-width: 1120px;
     margin: 0 auto;
     flex-direction: column;
     &__top {
