@@ -1,8 +1,14 @@
 <template>
   <section class="container">
     <div class="container__stage">
-      <div class="container__stage__title">
-        <h3>Encontre a melhor etapa para você estudar programação</h3>
+      <div class="container__stage__text">
+        <div class="container__stage__text__title">
+          <h3>Encontre a melhor etapa para você estudar programação</h3>
+        </div>
+        <div class="container__stage__text__border"></div>
+        <p>
+          Aulas para você começar, se aperfeiçoar e continuar evoluindo sempre.
+        </p>
       </div>
       <div class="container__stage__toolbar">
         <div class="container__stage__toolbar__buttons">
@@ -15,7 +21,6 @@
         </div>
         <div class="container__stage__toolbar__trilhas">
           <img src="@/assets/foguetes.png" alt="" />
-
           <div class="container__stage__toolbar__trilhas__text">
             <img src="@/assets/rocketseat-circle.png" alt="" />
             <h3>
@@ -69,14 +74,29 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 0 auto;
-    &__title {
-      width: 684px;
-      height: 108px;
+    padding: 160px 0;
+    &__text {
+      display: flex;
+      width: 1120px;
       margin-bottom: 80px;
-      h3 {
-        font-size: 48px;
-        line-height: 54px;
-        color: #e1e1e6;
+      justify-content: space-between;
+      &__title {
+        width: 684px;
+        h3 {
+          font-size: 48px;
+          line-height: 54px;
+          color: #e1e1e6;
+        }
+      }
+      &__border {
+        border-top: 1px solid rgba(255, 255, 255, 0.123);
+        width: 50px;
+        margin-right: 50px;
+      }
+      p {
+        padding-top: 24px;
+        width: 288px;
+        color: #a8a8b3;
       }
     }
     &__toolbar {
@@ -89,7 +109,6 @@
         display: flex;
         &__discover {
           border-top-left-radius: 5px;
-          border: unset;
           border-top: 2px solid #8257e5;
           background: #202024;
           width: 560px;
@@ -99,10 +118,9 @@
           font-weight: bold;
         }
         &__ignite {
-          border-radius: 5px;
-          border: unset;
+          border-top-right-radius: 5px;
           border: 1px solid #39393b;
-          background: #121214;
+          background: #09090a;
           width: 560px;
           height: 56px;
           color: #a8a8b3;
@@ -115,7 +133,12 @@
         height: 561px;
         padding: 56px 72px 80px;
         justify-content: space-between;
-        border-top: 2px solid #39393b;
+        background: #121214;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom: 1px solid #29292e;
+        border-right: 1px solid #29292e;
+        border-left: 1px solid #29292e;
         img {
           margin-bottom: 40px;
         }
