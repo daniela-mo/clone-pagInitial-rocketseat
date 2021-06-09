@@ -29,6 +29,7 @@
 .header {
   width: 100%;
   height: 105px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.123);
   &__content {
     display: flex;
     width: 80%;
