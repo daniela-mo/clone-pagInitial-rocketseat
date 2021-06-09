@@ -99,7 +99,6 @@
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;
-    // border-bottom: 1px solid rgba(255, 255, 255, 0.122);
     &__text {
       display: flex;
       margin-top: 10%;
