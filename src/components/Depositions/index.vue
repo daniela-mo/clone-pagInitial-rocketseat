@@ -1,52 +1,55 @@
 <template>
   <div class="depositions">
     <div class="depositions__content">
-      <div class="depositions__content__text">
+      <!-- <div class="depositions__content__text"> -->
         <div class="depositions__content__text__title">
           <h1>O que dizem devs que decolaram com o Discover</h1>
         </div>
         <div class="depositions__content__text__depoimentos">
-          <p class="depositions__content__text__p__depoimentos">
-            “O conteúdo do Discover é além do básico e totalmente gratuito.
-            Quando alguém me pergunta o que aprender ou onde, a resposta é
-            automática: https://app.rocketseat.com.br/discover”
-          </p>
-          <div class="depositions__content__text__depoimentos__pessoa">
-            <div class="depositions__content__text__depoimentos__pessoa__img">
-              <img src="@/assets/luis-fernando.png" />
-            </div>
-            <div class="depositions__content__text__depoimentos__pessoa__insta">
-              <span>Luis Fernando</span>
-              <h2>@luisfernandomgrs</h2>
-            </div>
-          </div>
           <p class="depositions__content__text__depoimentos__p">
             “O conteúdo do Discover é além do básico e totalmente gratuito.
             Quando alguém me pergunta o que aprender ou onde, a resposta é
             automática: https://app.rocketseat.com.br/discover”
           </p>
-          <div class="depositions__content__text__depoimentos__pessoa">
-            <div class="depositions__content__text__depoimentos__pessoa__img">
-              <img src="@/assets/luis-fernando.png" />
-            </div>
-            <div class="depositions__content__text__depoimentos__pessoa__insta">
-              <span>Juan Pablo</span>
-              <h2>@_ojuanpablo</h2>
-            </div>
-          </div>
+        </div>
+        <div class="depositions__content__text__img">
+          <img src="@/assets/luis-fernando.png" />
+        </div>
+        <div class="depositions__content__text__insta">
+          <span>Luis Fernando</span>
+          <h2>@luisfernandomgrs</h2>
+        </div>
+        <div class="depositions__content__text__depoimentos">
           <p class="depositions__content__text__depoimentos__p">
             “O conteúdo do Discover é além do básico e totalmente gratuito.
             Quando alguém me pergunta o que aprender ou onde, a resposta é
             automática: https://app.rocketseat.com.br/discover”
           </p>
-          <div class="depositions__content__text__depoimentos__pessoa">
-            <div class="depositions__content__text__depoimentos__pessoa__img">
-              <img src="@/assets/luis-fernando.png" />
-            </div>
-            <div class="depositions__content__text__depoimentos__pessoa__insta">
-              <span>Luis Fernando</span>
-              <h2>@luisfernandomgrs</h2>
-            </div>
+        </div>
+        <div class="depositions__content__text">
+          <div class="depositions__content__text__img">
+            <img src="@/assets/juan-pablo.png" />
+          </div>
+          <div class="depositions__content__text__insta">
+            <span>Juan Pablo</span>
+            <h2>@_ojuanpablo</h2>
+          </div>
+        </div>
+        <div class="depositions__content__text">
+          <p class="depositions__content__text__depoimentos__p">
+            “O Discover em união com a maratona Discover são simplesmente
+            incríveis, muito conteúdo, além de te guiar a como ter disciplina
+            nos estudos, te mostrando que só você pode mudar e evoluir como
+            dev.”
+          </p>
+        </div>
+        <div class="depositions__content__text">
+          <div class="depositions__content__text__img">
+            <img src="@/assets/ariadne-liranco.png" />
+          </div>
+          <div class="depositions__content__text__insta">
+            <span>Ariadne Liranço</span>
+            <h2>@aricandidolira</h2>
           </div>
         </div>
       </div>
@@ -81,19 +84,23 @@
         color: #e1e1e6;
         width: 780px;
       }
-      &__p {
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        color: #e1e1e6;
-        margin-top: 75px;
-        width: 313px;
+      &__depoimentos {
+        display: flex;
+        &__p {
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          line-height: 26px;
+          color: #e1e1e6;
+          margin-top: 75px;
+
+          // margin-left: 45px;
+          width: 313px;
+        }
       }
-      // &__pessoa {
-      //   display: flex;
-      //   align-items: center;
 
       &__img {
+        display: flex;
         margin-top: 22px;
         img {
           border: 1px solid #fff;
@@ -118,7 +125,6 @@
           color: #a8a4a4;
         }
       }
-      // }
     }
   }
 }
