@@ -8,7 +8,6 @@
         <h3>
           Mais de 357 mil devs já se conectaram.
         </h3>
-
         <p>
           Comece a avançar agora mesmo na direção dos seus objetivos e alcance o
           seu lugar como dev.
