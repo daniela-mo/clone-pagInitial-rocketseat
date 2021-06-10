@@ -6,7 +6,7 @@
           <img src="@/assets/rocketseat.png" alt="Logo" />
         </div>
         <div class="header__content__text">
-          <ul>
+          <ul class="header__content__text__ul">
             <li><a href="#">Home</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Ignite</a></li>
@@ -29,6 +29,7 @@
 .header {
   width: 100%;
   height: 105px;
+  margin: 0 auto;
   &__content {
     display: flex;
     width: 80%;
@@ -48,12 +49,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
+
       ul {
         display: flex;
+        flex-direction: row;
         li {
-          text-decoration: none;
-          margin: 0 15px;
+          display: flex;
+          // text-decoration: none;
+          // margin: 0 15px;
           a {
+            margin-left: 12px;
             text-decoration: none;
             color: #5b5b62;
             font-size: 20px;
