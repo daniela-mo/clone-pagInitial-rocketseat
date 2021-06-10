@@ -20,6 +20,7 @@ export default {
 *::after {
   padding: 0;
   margin: 0;
+  background: #121214;
   box-sizing: border-box;
 }
 :root {
