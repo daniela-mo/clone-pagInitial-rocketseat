@@ -17,7 +17,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import Cards from "./Cards";
 import cursos from "@/utils/cursos";
