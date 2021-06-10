@@ -76,7 +76,6 @@
               <input type="checkbox" />
               <p>Concordo em receber comunicações</p>
             </div>
-
             <button class="container__events__contact__bottom__box__button">
               ME INSCREVER
             </button>
