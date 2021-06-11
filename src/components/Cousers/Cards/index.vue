@@ -5,7 +5,7 @@
         <div class="card-item__content-card__topo">
           <div class="card-item__content-card__topo__itens">
             <div class="card-item__content-card__topo__img">
-              <img :src="item.imageURl" />
+              <img src="@/assets/image.png" />
             </div>
             <div class="card-item__content-card__topo__itens__box-one">
               <span>{{ item.useID }} </span>
@@ -132,6 +132,7 @@ export default {
         font-size: 16px;
         font-weight: 400;
         color: #fff;
+        margin-top: 25px;
       }
 
       a {
@@ -139,12 +140,11 @@ export default {
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        width: 154px;
-        height: 49px;
+        width: 144px;
+        height: 46px;
         font-size: 14px;
         font-family: "Roboto", sans-serif;
         font-weight: bold;
-        padding-top: 90px;
         background: #28203e;
         border-radius: 8px;
         color: #fff;

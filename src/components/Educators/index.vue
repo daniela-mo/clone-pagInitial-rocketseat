@@ -30,7 +30,7 @@
           </h3>
           <div class="educators__content__cards__icons">
             <img src="@/assets/git.png" />
-            <img src="@/assets/insta.png" />
+            <img src="@/assets/instagram.png" />
             <img src="@/assets/youtube.png" />
           </div>
         </div>
@@ -54,7 +54,7 @@
           </h3>
           <div class="educators__content__cards__icons">
             <img src="@/assets/git.png" />
-             <img src="@/assets/instagram.png" /> 
+            <img src="@/assets/instagram.png" />
             <img src="@/assets/youtube.png" />
           </div>
         </div>
