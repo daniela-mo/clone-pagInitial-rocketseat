@@ -3,7 +3,7 @@
     <div class="header">
       <div class="header__content">
         <div class="header__content__img">
-          <img src="@/assets/rocketseat.png" alt="Logo" />
+          <img src="@/assets/rocketseat-logo.png" alt="Logo" />
         </div>
         <div class="header__content__text">
           <ul>
