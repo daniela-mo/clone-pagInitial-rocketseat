@@ -10,27 +10,34 @@
           Aulas para você começar, se aperfeiçoar e continuar evoluindo sempre.
         </p>
       </div>
-      <Discover />
-      <Ignite />
+      <div class="container__stage__text__border__cards">
+        <Discover :cardsHome="cardsHomeMap" />
+      </div>
     </div>
   </section>
 </template>
 
 <script>
 import Discover from "./Discover";
-import Ignite from "./Ignite";
+import cardsHome from "@/utils/cardsHome";
 export default {
   components: {
     Discover,
-    Ignite,
   },
-  data: () => ({}),
+  data: () => ({
+    cardsHomeMap: [],
+  }),
+  beforeMount() {
+    this.fetch();
+  },
+  methods: {
+    fetch() {
+      const cardsHomeMap = cardsHome;
+      this.cardsHomeMap = cardsHomeMap;
+    },
+  },
 };
 </script>
-<!-- 
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script> -->
 
 <style lang="scss" scoped>
 .container {
@@ -67,6 +74,13 @@ export default {
         width: 288px;
         color: #a8a8b3;
       }
+    }
+    &__cards {
+      display: flex;
+      margin-top: 50px;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
     }
   }
 }
