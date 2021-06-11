@@ -3,7 +3,7 @@
     <div class="discover">
       <div class="discover__content">
         <div class="discover__content__logo">
-          <img src="@/assets/discover.png" />
+          <img src="@/assets/discover-topo.png" />
         </div>
         <div class="discover__content__title">
           <span>Programa gratuito para iniciantes</span>
@@ -30,6 +30,7 @@
     <Cousers />
     <Educators />
     <Depositions />
+    <Faq />
   </div>
 </template>
 
@@ -37,12 +38,14 @@
 import Cousers from "@/components/Cousers";
 import Educators from "@/components/Educators";
 import Depositions from "@/components/Depositions";
+import Faq from "@/components/Faq";
 
 export default {
   components: {
     Cousers,
     Educators,
     Depositions,
+    Faq,
   },
 };
 </script>

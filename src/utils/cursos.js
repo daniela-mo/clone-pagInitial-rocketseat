@@ -9,6 +9,7 @@ const cursos = [
     name: "Número de aulas",
     start: "226 aulas",
     type: "Duração",
+
     // start: "Infinito",
   },
   {

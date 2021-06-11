@@ -1,54 +1,61 @@
 <template>
   <div class="depositions">
     <div class="depositions__content">
-      <!-- <div class="depositions__content__text"> -->
-      <div class="depositions__content__text__title">
-        <h1>O que dizem devs que decolaram com o Discover</h1>
-      </div>
-      <div class="depositions__content__text__depoimentos">
-        <p class="depositions__content__text__depoimentos__p">
-          “O conteúdo do Discover é além do básico e totalmente gratuito. Quando
-          alguém me pergunta o que aprender ou onde, a resposta é automática:
-          https://app.rocketseat.com.br/discover”
-        </p>
-      </div>
-      <div class="depositions__content__text__img">
-        <img src="@/assets/luis-fernando.png" />
-      </div>
-      <div class="depositions__content__text__insta">
-        <span>Luis Fernando</span>
-        <h2>@luisfernandomgrs</h2>
-      </div>
-      <div class="depositions__content__text__depoimentos">
-        <p class="depositions__content__text__depoimentos__p">
-          “O conteúdo do Discover é além do básico e totalmente gratuito. Quando
-          alguém me pergunta o que aprender ou onde, a resposta é automática:
-          https://app.rocketseat.com.br/discover”
-        </p>
-      </div>
       <div class="depositions__content__text">
-        <div class="depositions__content__text__img">
-          <img src="@/assets/juan-pablo.png" />
+        <div class="depositions__content__text__title">
+          <h1>O que dizem devs que decolaram com o Discover</h1>
         </div>
-        <div class="depositions__content__text__insta">
-          <span>Juan Pablo</span>
-          <h2>@_ojuanpablo</h2>
-        </div>
-      </div>
-      <div class="depositions__content__text">
-        <p class="depositions__content__text__depoimentos__p">
-          “O Discover em união com a maratona Discover são simplesmente
-          incríveis, muito conteúdo, além de te guiar a como ter disciplina nos
-          estudos, te mostrando que só você pode mudar e evoluir como dev.”
-        </p>
-      </div>
-      <div class="depositions__content__text">
-        <div class="depositions__content__text__img">
-          <img src="@/assets/ariadne-liranco.png" />
-        </div>
-        <div class="depositions__content__text__insta">
-          <span>Ariadne Liranço</span>
-          <h2>@aricandidolira</h2>
+        <div class="depositions__content__text__bottom">
+          <div class="depositions__content__text__depoimentos">
+            <p class="depositions__content__text__depoimentos__p">
+              “O conteúdo do Discover é além do básico e totalmente gratuito.
+              Quando alguém me pergunta o que aprender ou onde, a resposta é
+              automática: https://app.rocketseat.com.br/discover”
+            </p>
+
+            <div class="depositions__content__text__img">
+              <img src="@/assets/luis-fernando.png" />
+            </div>
+            <div class="depositions__content__text__insta">
+              <span>Luis Fernando</span>
+              <h2>@luisfernandomgrs</h2>
+            </div>
+          </div>
+          <div class="depositions__content__text__depoimentos">
+            <p class="depositions__content__text__depoimentos__p">
+              “O conteúdo do Discover é além do básico e totalmente gratuito.
+              Quando alguém me pergunta o que aprender ou onde, a resposta é
+              automática: https://app.rocketseat.com.br/discover”
+            </p>
+
+            <div class="depositions__content__text">
+              <div class="depositions__content__text__img">
+                <img src="@/assets/juan-pablo.png" />
+              </div>
+              <div class="depositions__content__text__insta">
+                <span>Juan Pablo</span>
+                <h2>@_ojuanpablo</h2>
+              </div>
+            </div>
+          </div>
+          <div class="depositions__content__text__depoimentos">
+            <p class="depositions__content__text__depoimentos__p">
+              “O Discover em união com a maratona Discover são simplesmente
+              incríveis, muito conteúdo, além de te guiar a como ter disciplina
+              nos estudos, te mostrando que só você pode mudar e evoluir como
+              dev.”
+            </p>
+
+            <div class="depositions__content__text">
+              <div class="depositions__content__text__img">
+                <img src="@/assets/ariadne-liranco.png" />
+              </div>
+              <div class="depositions__content__text__insta">
+                <span>Ariadne Liranço</span>
+                <h2>@aricandidolira</h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -58,22 +65,25 @@
 .depositions {
   border-top: 1px solid #b6b2b252;
   display: flex;
-  flex-direction: column;
   width: 100%;
   height: 100%;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+
   &__content {
+    display: flex;
     max-width: 1170px;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding: 160px 0px;
     &__text {
       display: flex;
       flex-direction: column;
+      &__bottom {
+        display: flex;
+      }
+
       &__title {
         font-family: "Roboto", sans-serif;
         font-size: 32px;
@@ -83,6 +93,8 @@
       }
       &__depoimentos {
         display: flex;
+        flex-direction: column;
+        margin-left: 15px;
         &__p {
           font-family: "Roboto", sans-serif;
           font-size: 16px;
