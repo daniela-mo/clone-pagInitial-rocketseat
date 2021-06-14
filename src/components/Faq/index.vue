@@ -2,7 +2,7 @@
   <div class="faq">
     <div class="faq-content">
       <div class="faq-content__title">
-        <span>Perguntas Frequentes</span>
+        <span>Perguntas e respostas mais frequentes</span>
       </div>
       <div class="faq-content__text">
         <div
@@ -73,7 +73,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.faq-content {
+.faq {
   border-top: 1px solid #b6b2b252;
   display: flex;
   width: 100%;
@@ -81,119 +81,130 @@ export default {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  padding: 160px 0px;
 
-  &__title {
-    padding-bottom: 48px;
-    span {
-      font-style: normal;
-      font-weight: bold;
-      font-size: 32px;
-      line-height: 39px;
-      color: var(--color-white);
-    }
-  }
-  &__text {
-    width: 100%;
-    &__paragrafo {
-      display: flex;
-      flex-direction: column;
-      padding: 20px 0;
+  .faq-content {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    &__title {
       width: 100%;
-      &__h1 {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-
-        &__title {
-          width: 100%;
-          span {
-            font-size: 24px;
-            color: #ffffff;
-          }
-          p {
-            font-size: 16px;
-            color: #bcbcbc;
-          }
-        }
-        &__sinal {
-          width: 3%;
-
-          span {
-            font-size: 24px;
-            color: #ffffff;
-          }
-        }
-      }
-    }
-
-    h1 {
-      font-family: Inter;
-      font-size: 24px;
-      color: #ffffff;
-    }
-    h2 {
-      font-family: Inter;
-      font-size: 16px;
-      color: #ffffff;
-    }
-  }
-  @media (max-width: 768px) {
-    width: 90%;
-    padding-top: 600px;
-  }
-  .item {
-    width: 100%;
-    max-width: 700px;
-    cursor: pointer;
-
-    h2 {
-      display: flex;
-      width: 100%;
-      flex-direction: row;
-      justify-content: space-between;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 29px;
-      color: var(--color-white);
-      margin: 32px 0;
       span {
-        width: 3%;
-        font-size: 22px;
-        line-height: 29px;
-        color: var(--color-white);
+        margin-top: 50px;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 39px;
+        color: #e1e2e6;
+        width: 525px;
+      }
+    }
+    &__text {
+      width: 100%;
+      &__paragrafo {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+        width: 100%;
+        &__h1 {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+
+          &__title {
+            width: 100%;
+
+            span {
+              font-size: 24px;
+              color: #ffffff;
+            }
+            p {
+              font-size: 16px;
+              color: #bcbcbc;
+            }
+          }
+          &__sinal {
+            width: 3%;
+
+            // span {
+            //   font-size: 24px;
+            //   color: #ffffff;
+            // }
+          }
+        }
+      }
+
+      h1 {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        color: #ffffff;
+      }
+      h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        color: #ffffff;
       }
     }
 
-    &__content {
-      padding-bottom: 32px;
+    .item {
+      width: 100%;
+      max-width: 700px;
+      cursor: pointer;
 
-      &--disabled {
-        transition: height 0.5s ease-out, display 0.5s;
-        transition-delay: 50ms;
-        height: 0;
-        opacity: 0;
-        display: none;
-      }
-
-      &--enabled {
-        transition: all 0.5s ease;
-        height: auto;
-        opacity: 1;
-      }
-
-      p {
+      h2 {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 150%;
-        color: var(--color-light-silver);
+        font-size: 24px;
+        line-height: 29px;
+        color: #e1e2e6;
+        margin: 32px 0;
+        span {
+          width: 3%;
+          font-size: 22px;
+          line-height: 29px;
+          color: #e1e2e6;
+        }
       }
-    }
-    &__line {
-      width: 100%;
-      height: 1px;
-      background-color: var(--color-light-silver);
+
+      &__content {
+        padding-bottom: 32px;
+
+        &--disabled {
+          transition: height 0.5s ease-out, display 0.5s;
+          transition-delay: 50ms;
+          height: 0;
+          opacity: 0;
+          display: none;
+        }
+
+        &--enabled {
+          transition: all 0.5s ease;
+          height: auto;
+          opacity: 1;
+        }
+
+        p {
+          font-family: "Roboto", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 150%;
+          color: #e1e2e6;
+        }
+      }
+      &__line {
+        width: 100%;
+        height: 1px;
+        background-color: var(--color-light-silver);
+      }
     }
   }
 }
