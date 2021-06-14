@@ -63,6 +63,7 @@ export default {
       }
       p {
         font-family: "Roboto", sans-serif;
+        line-height: 28px;
         font-size: 16px;
         color: #e1e1e6;
         margin-left: 150px;

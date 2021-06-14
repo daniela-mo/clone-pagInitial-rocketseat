@@ -31,6 +31,9 @@
     <Educators />
     <Depositions />
     <Faq />
+    <Connect />
+    <Boosting />
+    <Footer />
   </div>
 </template>
 
@@ -39,6 +42,9 @@ import Cousers from "@/components/Cousers";
 import Educators from "@/components/Educators";
 import Depositions from "@/components/Depositions";
 import Faq from "@/components/Faq";
+import Connect from "@/components/Connect";
+import Boosting from "@/components/Boosting";
+import Footer from "@/components/Footer";
 
 export default {
   components: {
@@ -46,6 +52,9 @@ export default {
     Educators,
     Depositions,
     Faq,
+    Connect,
+    Boosting,
+    Footer,
   },
 };
 </script>
