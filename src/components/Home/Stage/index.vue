@@ -50,10 +50,12 @@ export default {
       &__title {
         width: 700px;
         margin-right: 20px;
+
         h3 {
           font-size: 48px;
           line-height: 54px;
           color: #e1e1e6;
+          font-family: "Roboto", sans-serif;
         }
       }
       &__border {
@@ -68,6 +70,7 @@ export default {
         line-height: 165%;
         width: 290px;
         color: #a8a8b3;
+        font-family: "Roboto", sans-serif;
       }
     }
     &__cards {

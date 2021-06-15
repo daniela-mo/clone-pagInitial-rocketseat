@@ -103,6 +103,7 @@ export default {
       font-size: 16px;
       border: none;
       outline: none;
+      cursor: pointer;
     }
     &__ignite {
       background: #09090a;
@@ -112,6 +113,7 @@ export default {
       font-size: 16px;
       outline: none;
       border: none;
+      cursor: pointer;
     }
   }
   &__trilhas {
@@ -137,10 +139,12 @@ export default {
         margin-bottom: 24px;
         max-width: 378px;
         color: #e1e1e6;
+        font-family: "Roboto", sans-serif;
       }
       p {
         color: #e1e1e6;
         font-size: 16px;
+        font-family: "Roboto", sans-serif;
       }
       &__purple {
         display: flex;
@@ -150,6 +154,7 @@ export default {
         align-items: center;
         margin-top: 24px;
         justify-content: start;
+
         button {
           width: 180px;
           height: 56px;
@@ -160,7 +165,9 @@ export default {
           font-size: 14px;
           color: #ffffff;
           font-weight: bold;
+          font-family: "Roboto", sans-serif;
           margin-right: 40px;
+          cursor: pointer;
         }
         span {
           width: 199px;
@@ -170,6 +177,7 @@ export default {
           line-height: 22px;
           color: #a8a8b3;
           max-width: 199px;
+          font-family: "Roboto", sans-serif;
         }
       }
       &__green {
@@ -180,6 +188,8 @@ export default {
         align-items: center;
         margin-top: 24px;
         justify-content: start;
+        font-family: "Roboto", sans-serif;
+
         button {
           width: 180px;
           height: 56px;
@@ -190,6 +200,7 @@ export default {
           font-size: 14px;
           color: #000;
           font-weight: bold;
+          cursor: pointer;
           margin-right: 40px;
         }
         span {
@@ -200,9 +211,11 @@ export default {
           line-height: 22px;
           color: #a8a8b3;
           max-width: 199px;
+          font-family: "Roboto", sans-serif;
         }
         strong {
           color: white;
+          font-family: "Roboto", sans-serif;
         }
       }
     }

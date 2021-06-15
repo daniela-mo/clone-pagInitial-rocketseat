@@ -104,11 +104,12 @@
     &__title {
       width: 550px;
       margin-top: 15%;
-
+      font-family: "Roboto", sans-serif;
       h3 {
         font-size: 44px;
         line-height: 54px;
         color: #e1e1e6;
+        font-family: "Roboto", sans-serif;
       }
     }
     &__depoiments {
@@ -121,6 +122,7 @@
           width: 520px;
           color: #e1e1e6;
           line-height: 145%;
+          font-family: "Roboto", sans-serif;
         }
         &__dates {
           display: flex;
@@ -144,10 +146,12 @@
 
           h3 {
             color: #e1e1e6;
+            font-family: "Roboto", sans-serif;
           }
           strong {
             color: #b8b8bb;
             font-weight: normal;
+            font-family: "Roboto", sans-serif;
           }
         }
         &__border {
@@ -162,6 +166,7 @@
           width: 520px;
           color: #e1e1e6;
           line-height: 145%;
+          font-family: "Roboto", sans-serif;
         }
         &__dates {
           display: flex;
@@ -186,9 +191,11 @@
 
           h3 {
             color: #e1e1e6;
+            font-family: "Roboto", sans-serif;
           }
           strong {
             color: #b8b8bb;
+            font-family: "Roboto", sans-serif;
             font-weight: normal;
           }
         }

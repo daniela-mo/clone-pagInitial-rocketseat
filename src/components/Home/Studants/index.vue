@@ -72,10 +72,12 @@
         width: 250px;
         h3 {
           font-size: 56px;
+          font-family: "Roboto", sans-serif;
           color: #04d361;
         }
         span {
           font-size: 56px;
+          font-family: "Roboto", sans-serif;
           color: #fff;
         }
         &__border {
@@ -86,6 +88,7 @@
         }
         p {
           font-size: 18px;
+          font-family: "Roboto", sans-serif;
           color: #fff;
           margin-top: 30px;
         }
