@@ -37,6 +37,7 @@
   height: 100%;
   margin: 0 auto;
   justify-content: center;
+  border-top: 1px solid #b6b2b252;
   align-items: center;
   // padding: 380px 0px;
   &__content {
@@ -44,7 +45,6 @@
     max-width: 1170px;
     width: 100%;
     margin: 0 auto;
-    border-top: 1px solid #b6b2b252;
     padding: 80px 0px;
     &__img {
       img {

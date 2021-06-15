@@ -30,8 +30,8 @@
           </h3>
           <div class="educators__content__cards__icons">
             <img src="@/assets/git.png" />
-            <img src="@/assets/instagram.png" />
-            <img src="@/assets/youtube.png" />
+            <img src="@/assets/instagram1.png" />
+            <img src="@/assets/youtube1.png" />
           </div>
         </div>
         <div class="educators__content__cards__card">
@@ -54,8 +54,8 @@
           </h3>
           <div class="educators__content__cards__icons">
             <img src="@/assets/git.png" />
-            <img src="@/assets/instagram.png" />
-            <img src="@/assets/youtube.png" />
+            <img src="@/assets/instagram1.png" />
+            <img src="@/assets/youtube1.png" />
           </div>
         </div>
       </div>
