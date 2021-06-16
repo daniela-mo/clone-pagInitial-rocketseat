@@ -1,16 +1,12 @@
 <template>
   <div id="app">
-    <Header />
     <router-view />
   </div>
 </template>
 
 <script>
-import Header from "@/components/Header";
 export default {
-  components: {
-    Header,
-  },
+  components: {},
 };
 </script>
 
@@ -25,6 +21,8 @@ export default {
 :root {
   --color-background: linear-gradient(270deg, #0f0c14, #121214);
   --color-blecaute: #191820;
+  --background: #121214;
+  --green: #04d361;
   --color-button: #8257e5;
   --color-text: #fff;
   --color-light-silver: #adadad52;
@@ -37,6 +35,12 @@ export default {
     rgba(130, 87, 230, 0.25) ;
   );
   --darke-gradient: linear-gradient(90deg, #202024, rgba(32, 32, 36, 0.2));
+
+  --background-transparent: linear-gradient(
+    270deg,
+    rgb(6, 10, 8) 0%,
+    rgb(18, 18, 20) 100%
+  );
 }
 
 .container {
