@@ -71,13 +71,14 @@ export default {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+  margin: 0 auto;
   &__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 80%;
+    margin: 30px 0;
     max-width: 1120px;
-    margin: 0 auto;
     &__text {
       display: flex;
       flex-direction: column;
@@ -111,8 +112,6 @@ export default {
       }
       &__button {
         margin-top: 40px;
-        // padding: 25px 50px;
-
         border: none;
         border-radius: 5px;
         font-size: 16px;
@@ -120,6 +119,7 @@ export default {
         color: #e1e1e6;
         background: #8257e5;
         width: 266px;
+        cursor: pointer;
         height: 64px;
         font-family: "Roboto", sans-serif;
       }

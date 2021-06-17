@@ -6122,6 +6122,16 @@
     "lodash" "^4.17.20"
     "renderkid" "^2.0.4"
 
+"primeicons@^4.1.0":
+  "integrity" "sha512-uEv2pSPk1zQCfaB2VgnUfnUxxlGryYi+5rbdxmZBBt5v9S/pscIQYS5YDLxsQZ7D9jn5c76+Tx5wX/2J1nK6sA=="
+  "resolved" "https://registry.npmjs.org/primeicons/-/primeicons-4.1.0.tgz"
+  "version" "4.1.0"
+
+"primevue@^2.4.2":
+  "integrity" "sha512-AuAmwl7+MKLau/FoRNOPMOT+l9Ky01SOlKY02nYBBlw6KXksQ1ao4r/iT04xjA+9nyQLH+KYC5eL9NZr3O5/NA=="
+  "resolved" "https://registry.npmjs.org/primevue/-/primevue-2.4.2.tgz"
+  "version" "2.4.2"
+
 "process-nextick-args@~2.0.0":
   "integrity" "sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag=="
   "resolved" "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz"

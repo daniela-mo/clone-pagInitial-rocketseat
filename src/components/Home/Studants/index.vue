@@ -37,7 +37,7 @@
 <style lang="scss" scoped>
 .container {
   background: #121214;
-  // border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.123);
   &__studants {
     display: flex;
     width: 80%;
@@ -50,42 +50,45 @@
       justify-content: space-between;
       display: flex;
       align-items: center;
-      margin-top: 15%;
+      margin-top: 10%;
       h3 {
-        width: 700px;
-        font-size: 56px;
+        width: 550px;
+        font-size: 48px;
         color: rgb(226, 223, 223);
       }
       img {
         padding-bottom: 90px;
+        width: 190px;
       }
     }
     &__bottom {
       display: flex;
-      margin-bottom: 10%;
+      margin-bottom: 13%;
       justify-content: center;
       &__dates {
         display: flex;
         flex-direction: column;
-        margin: 75px 45px 10px 3px;
+        margin: 65px 25px 10px 5px;
         width: 250px;
         h3 {
           font-size: 56px;
+          font-family: "Roboto", sans-serif;
           color: #04d361;
         }
         span {
           font-size: 56px;
+          font-family: "Roboto", sans-serif;
           color: #fff;
         }
         &__border {
           margin-top: 18px;
           width: 220px;
           height: 3px;
-
-          background: var(--primary-gradient-left);
+          background: var(--purple-gradient);
         }
         p {
           font-size: 18px;
+          font-family: "Roboto", sans-serif;
           color: #fff;
           margin-top: 30px;
         }
