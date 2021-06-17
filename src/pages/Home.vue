@@ -40,14 +40,14 @@
 </template>
 
 <script>
-import Studants from "@/components/Studants";
-import Stage from "@/components/Stage";
-import Results from "@/components/Results";
-import Evolution from "@/components/Evolution";
-import Enterprise from "@/components/Enterprise";
-import Content from "@/components/Content";
-import EventsRocket from "@/components/EventsRocket";
-import Acount from "@/components/Acount";
+import Studants from "@/components/Home/Studants";
+import Stage from "@/components/Home/Stage";
+import Results from "@/components/Home/Results";
+import Evolution from "@/components/Home/Evolution";
+import Enterprise from "@/components/Home/Enterprise";
+import Content from "@/components/Home/Content";
+import EventsRocket from "@/components/Home/EventsRocket";
+import Acount from "@/components/Home/Acount";
 
 export default {
   components: {

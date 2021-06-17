@@ -1,44 +1,61 @@
 <template>
   <section class="container">
-    <div class="container__top">
-      <div class="container__top__text">
-        <div class="container__top__text__strong">
-          <img src="@/assets/rocket_page-ignite.png" alt="" />
-          <strong>Domine uma tecnologia específica</strong>
+    <div class="container__ignite">
+      <div class="container__ignite__top">
+        <div class="container__ignite__top__text">
+          <div class="container__ignite__top__text__strong">
+            <img src="@/assets/rocket_page-ignite.png" alt="" />
+            <strong>Domine uma tecnologia específica</strong>
+          </div>
+          <h1>Programa para acelerar sua carreira como Dev.</h1>
+          <p>
+            Criado para te preparar para o mercado, desenvolvendo skills
+            técnicas e comportamentais. Evolua e certifique-se em Elixir,
+            Flutter, Node.js, ReactJS ou React Native.
+          </p>
+          <div class="container__ignite__top__text__reserva">
+            <router-link
+              to="#"
+              class="container__ignite__top__text__reserva__router"
+            >
+              RESERVAR MINHA VAGA
+            </router-link>
+            <span>
+              <strong>Pré-requisito:?</strong> ter uma base sólida no
+              desenvolvimento web.
+            </span>
+          </div>
         </div>
-        <h1>Programa para acelerar sua carreira como Dev.</h1>
-        <p>
-          Criado para te preparar para o mercado, desenvolvendo skills técnicas
-          e comportamentais. Evolua e certifique-se em Elixir, Flutter, Node.js,
-          ReactJS ou React Native.
-        </p>
-        <div class="container__top__text__reserva">
-          <router-link to="#" class="container__top__text__reserva__router">
-            RESERVAR MINHA VAGA
-          </router-link>
-          <span>
-            <strong>Pré-requisito:?</strong> ter uma base sólida no
-            desenvolvimento web.
-          </span>
-        </div>
+        <img
+          src="@/assets/woman-ignite.png"
+          class="container__ignite__top__woman"
+          alt=""
+        />
       </div>
-      <img
-        src="@/assets/woman-ignite.png"
-        class="container__top__woman"
-        alt=""
-      />
     </div>
+    <Alvo />
   </section>
 </template>
 
+<script>
+import Alvo from "@/components/Ignite/Alvo";
+export default {
+  components: {
+    Alvo,
+  },
+};
+</script>
+
 <style lang="scss" scoped>
-.container {
+.container__ignite {
   display: flex;
   width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
   background: var(--background-transparent);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+
   &__top {
     display: flex;
     align-items: center;
@@ -46,10 +63,9 @@
     max-width: 1120px;
     margin: 0 auto;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.123);
     &__text {
       width: 518px;
-      margin-bottom: 20px;
+      margin: 15% 0;
       &__strong {
         display: flex;
         width: 518px;
