@@ -34,14 +34,17 @@
       </div>
     </div>
     <Alvo />
+    <Educator />
   </section>
 </template>
 
 <script>
 import Alvo from "@/components/Ignite/Alvo";
+import Educator from "@/components/Ignite/Educator";
 export default {
   components: {
     Alvo,
+    Educator,
   },
 };
 </script>
