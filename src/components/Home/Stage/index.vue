@@ -5,27 +5,36 @@
         <div class="container__stage__text__title">
           <h3>Encontre a melhor etapa para você estudar programação</h3>
         </div>
-        <div>
-          <div class="container__stage__text__border"></div>
-          <p>
-            Aulas para você começar, se aperfeiçoar e continuar evoluindo
-            sempre.
-          </p>
-        </div>
+        <div class="container__stage__text__border"></div>
+        <p>
+          Aulas para você começar, se aperfeiçoar e continuar evoluindo sempre.
+        </p>
       </div>
       <div class="container__stage__text__border__cards">
-        <Content />
+        <Discover :cardsHome="cardsHomeMap" />
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Content from "./Content";
-
+import Discover from "./Discover";
+import cardsHome from "@/utils/cardsHome";
 export default {
   components: {
-    Content,
+    Discover,
+  },
+  data: () => ({
+    cardsHomeMap: [],
+  }),
+  beforeMount() {
+    this.fetch();
+  },
+  methods: {
+    fetch() {
+      const cardsHomeMap = cardsHome;
+      this.cardsHomeMap = cardsHomeMap;
+    },
   },
 };
 </script>
@@ -48,29 +57,22 @@ export default {
       margin-bottom: 80px;
       justify-content: space-between;
       &__title {
-        width: 700px;
-        margin-right: 20px;
-
+        width: 684px;
         h3 {
           font-size: 48px;
           line-height: 54px;
           color: #e1e1e6;
-          font-family: "Roboto", sans-serif;
         }
       }
       &__border {
-        display: flex;
-        align-items: flex-end;
-        margin-right: 30px;
+        border-top: 1px solid rgba(255, 255, 255, 0.123);
         width: 50px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.185);
+        margin-right: 50px;
       }
       p {
         padding-top: 24px;
-        line-height: 165%;
-        width: 290px;
+        width: 288px;
         color: #a8a8b3;
-        font-family: "Roboto", sans-serif;
       }
     }
     &__cards {

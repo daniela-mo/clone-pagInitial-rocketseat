@@ -38,19 +38,16 @@
       align-items: center;
       flex-direction: column;
       font-family: "Roboto", sans-serif;
-      padding: 160px 0 75px;
-
+      margin: 13% 0 4% 0;
       h3 {
         text-align: center;
         width: 650px;
-        font-family: "Roboto", sans-serif;
         font-size: 48px;
         color: #e1e1e6;
       }
       p {
         margin-top: 2%;
         text-align: center;
-        font-family: "Roboto", sans-serif;
         width: 650px;
         color: #a8a8b3;
       }
@@ -60,9 +57,8 @@
       justify-content: center;
       align-items: flex-start;
       flex-wrap: wrap;
-      margin-bottom: 80px;
       img {
-        margin: 10px 40px 30px 0px;
+        margin: 40px 40px 30px 0px;
       }
     }
   }

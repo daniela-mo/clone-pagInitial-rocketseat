@@ -91,9 +91,8 @@
 
 <style lang="scss" scoped>
 .container {
-  background: var(--background);
+  background: --darker-gradient-right;
   border-bottom: 1px solid rgba(255, 255, 255, 0.123);
-  border-top: 1px solid rgba(255, 255, 255, 0.123);
   &__results {
     display: flex;
     width: 80%;
@@ -104,12 +103,11 @@
     &__title {
       width: 550px;
       margin-top: 15%;
-      font-family: "Roboto", sans-serif;
+
       h3 {
         font-size: 44px;
         line-height: 54px;
         color: #e1e1e6;
-        font-family: "Roboto", sans-serif;
       }
     }
     &__depoiments {
@@ -122,7 +120,6 @@
           width: 520px;
           color: #e1e1e6;
           line-height: 145%;
-          font-family: "Roboto", sans-serif;
         }
         &__dates {
           display: flex;
@@ -132,7 +129,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 2px solid #3c3c42;
+            border: 1px solid rgba(255, 255, 255, 0.383);
             border-radius: 50%;
             margin-right: 20px;
             width: 60px;
@@ -146,12 +143,10 @@
 
           h3 {
             color: #e1e1e6;
-            font-family: "Roboto", sans-serif;
           }
           strong {
             color: #b8b8bb;
             font-weight: normal;
-            font-family: "Roboto", sans-serif;
           }
         }
         &__border {
@@ -166,7 +161,6 @@
           width: 520px;
           color: #e1e1e6;
           line-height: 145%;
-          font-family: "Roboto", sans-serif;
         }
         &__dates {
           display: flex;
@@ -176,7 +170,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 2px solid #3c3c42;
+            border: 1px solid rgba(255, 255, 255, 0.383);
             border-radius: 50%;
             margin-right: 20px;
             width: 60px;
@@ -191,11 +185,9 @@
 
           h3 {
             color: #e1e1e6;
-            font-family: "Roboto", sans-serif;
           }
           strong {
             color: #b8b8bb;
-            font-family: "Roboto", sans-serif;
             font-weight: normal;
           }
         }

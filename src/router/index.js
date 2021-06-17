@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../pages/Home.vue";
-// import Discover from "..pages/Discover.vue";
 
 Vue.use(VueRouter);
 
@@ -11,11 +10,6 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  // {
-  //   path: "/discover",
-  //   name: "Discover",
-  //   component: Discover,
-  // },
 ];
 
 const router = new VueRouter({

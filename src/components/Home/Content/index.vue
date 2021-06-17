@@ -48,7 +48,6 @@
 <style lang="scss" scoped>
 .container {
   background: var(--darker-gradient-left);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.123);
   &__content {
     display: flex;
     max-width: 1120px;
@@ -62,7 +61,6 @@
       width: 460px;
       color: #e1e1e6;
       font-weight: bold;
-      font-family: "Roboto", sans-serif;
       margin: 10% 0 5%;
     }
     &__redes {
@@ -97,7 +95,6 @@
           color: #8257e5;
           text-transform: uppercase;
           font-family: "Roboto", sans-serif;
-          cursor: pointer;
         }
       }
       &__microfone {
@@ -130,7 +127,6 @@
           line-height: 24px;
           color: #8257e5;
           text-transform: uppercase;
-          cursor: pointer;
           font-family: "Roboto", sans-serif;
         }
       }
@@ -165,7 +161,6 @@
           color: #8257e5;
           text-transform: uppercase;
           font-family: "Roboto", sans-serif;
-          cursor: pointer;
         }
       }
       &__blog {
@@ -198,7 +193,6 @@
           color: #8257e5;
           text-transform: uppercase;
           font-family: "Roboto", sans-serif;
-          cursor: pointer;
         }
       }
     }

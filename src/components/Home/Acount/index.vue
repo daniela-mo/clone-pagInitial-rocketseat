@@ -5,7 +5,9 @@
         <img src="@/assets/acount.png" alt="" />
       </div>
       <div class="container__acount__text">
-        <h3>Mais de <strong>357 mil </strong> devs já se conectaram.</h3>
+        <h3>
+          Mais de 357 mil devs já se conectaram.
+        </h3>
         <p>
           Comece a avançar agora mesmo na direção dos seus objetivos e alcance o
           seu lugar como dev.
@@ -17,45 +19,33 @@
 </template>
 <style lang="scss" scoped>
 .container {
-  background: var(--darker-gradient-right);
-  display: flex;
-  justify-content: center;
+  background: var(--darker-gradient-left);
   border-bottom: 1px solid rgba(255, 255, 255, 0.122);
-  margin: 0 auto;
+  margin-top: 8%;
   &__acount {
     display: flex;
     max-width: 1120px;
+    margin: 0 auto;
     justify-content: space-between;
-    margin: 90px 0;
     &__img {
-      margin: 20px 50px 50px 0;
+      margin-top: 5%;
     }
     &__text {
       display: flex;
+      width: 494px;
+      height: 288;
       flex-direction: column;
-      margin: 90px 0 50px 80px;
-
+      margin-top: 10%;
       h3 {
+        margin-bottom: 24px;
+        color: #e1e1e6;
         font-size: 48px;
         font-family: "Roboto", sans-serif;
-        color: #fff;
-        display: flex;
-        flex-wrap: wrap;
-        width: 497px;
-        height: 108px;
-      }
-      strong {
-        margin-left: 15px;
-        font-size: 48px;
-        font-family: "Roboto", sans-serif;
-        color: #04d361;
       }
       p {
-        margin: 35px 0;
+        margin-bottom: 40px;
         color: #e1e1e6;
-        line-height: 26px;
         font-size: 16px;
-        width: 430px;
         font-family: "Roboto", sans-serif;
       }
       button {
@@ -68,7 +58,6 @@
         border-radius: 5px;
         color: #fff;
         font-weight: bold;
-        cursor: pointer;
       }
     }
   }

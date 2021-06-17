@@ -60,46 +60,41 @@
       margin: 15% 0 8% 0;
       justify-content: space-between;
       &__title {
-        font-family: "Roboto", sans-serif;
         font-size: 48px;
         line-height: 54px;
         color: #e1e1e6;
       }
       &__text {
         color: #a8a8b3;
-        font-family: "Roboto", sans-serif;
       }
     }
     &__methods {
       display: flex;
-      margin-bottom: 50px;
 
       &__card {
         display: flex;
         flex-direction: column;
-        background: #121214;
-        width: 352px;
-        height: 391px;
+        width: 351.98px;
+        height: 387.94px;
         border: 1px solid #9999a13b;
         padding: 32px 52px 32px 24px;
         margin-right: 30px;
         margin-bottom: 10%;
         border-radius: 5px;
         img {
-          width: 110px;
-          height: 95px;
-          margin-bottom: 30px;
+          width: 103px;
+          height: 90px;
+          margin: 0 24px 40px 0;
         }
         h3 {
           font-size: 32px;
           color: #e1e1e6;
-          font-family: "Roboto", sans-serif;
+          margin-bottom: 8px;
         }
         p {
           margin-top: 40px;
           color: #a8a8b3;
           line-height: 150%;
-          font-family: "Roboto", sans-serif;
         }
       }
     }
