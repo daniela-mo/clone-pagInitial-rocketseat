@@ -24,6 +24,7 @@
   --darker-gradient-left: linear-gradient(270deg, #121214, #09090a);
   --purple-gradient: linear-gradient(90deg, #8257e6, rgba(130, 87, 230, 0.25));
   --darke-gradient: linear-gradient(90deg, #202024, rgba(32, 32, 36, 0.2));
+  --react-gradient: linear-gradient(180deg, #182328, rgba(18, 18, 20, 0));
 }
 
 .container {
