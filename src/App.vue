@@ -31,6 +31,7 @@
     rgba(32, 32, 36, 0.25)
   );
   --green-darker: #0f3924;
+  --green: #04d361;
   --linear: linear-gradient(
     270deg,
     rgba(50, 50, 56, 0),
