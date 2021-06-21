@@ -14,7 +14,7 @@
           </span>
         </div>
       </div>
-      <div class="programs__content__bottom">
+      <div class="programs__content__educator">
         <div>
           <button>Ignite ReactJS</button>
           <button>Ignite Node.js</button>
@@ -22,9 +22,10 @@
           <button>Ignite React Native</button>
           <button>Ignite Flutter</button>
         </div>
-        <div class="programs__content__bottom__diego">
-          <div class="programs__content__bottom__diego__skills">
-            <p class="programs__content__bottom__diego__skills__one">
+
+        <div class="programs__content__educator__diego">
+          <div class="programs__content__educator__diego__skills">
+            <p class="programs__content__educator__diego__skills__one">
               <strong>Se o seu objetivo está alinhado com o front-end,</strong>
               e você deseja construir interfaces modernas e reativas na web
               utilizando uma biblioteca modular e escalável, esse Ignite é para
@@ -32,27 +33,40 @@
             </p>
             <h3>Diego Fernandes</h3>
             <span>Educador</span>
-            <p class="programs__content__bottom__diego__skills__two">
+            <p class="programs__content__educator__diego__skills__two">
               Responsável pela área de tecnologia da Rocketseat - onde
               utilizamos principalmente Node.js e ReactJS para atender milhares
               de devs na nossa plataforma - é o educador que vai te guiar no
               Ignite ReactJS.
             </p>
-            <a
-              href="https://github.com/diego3g"
-              class="programs__content__bottom__diego__skills__github"
-              ><div><img alt="" src="" /></div>
-              <span class="">Github</span></a
-            >
-            <button>INSTAGRAM</button>
+            <div>
+              <div class="programs__content__educator__diego__skills__github">
+                <a href="https://github.com/diego3g" />
+                <div
+                  class="programs__content__educator__diego__skills__github__img"
+                >
+                  <img alt="Github" src="@/assets/min-git.png" />
+                </div>
+                <strong>GITHUB</strong>
+              </div>
+              <div class="programs__content__educator__diego__skills__insta">
+                <a href="https://github.com/diego3g" />
+                <div
+                  class="programs__content__educator__diego__skills__insta__img"
+                >
+                  <img alt="Instagram" src="@/assets/min-insta.png" />
+                </div>
+                <strong>INSTAGRAM</strong>
+              </div>
+            </div>
           </div>
-          <div class="programs__content__bottom__diego__img">
+          <div class="programs__content__educator__diego__img">
             <img src="@/assets/diego.jpg" alt="" />
           </div>
         </div>
 
-        <!-- <div class="programs__content__bottom__daniele">
-          <div class="programs__content__bottom__daniele__skills">
+        <!-- <div class="programs__content__educator__daniele">
+          <div class="programs__content__educator__daniele__skills">
             <strong
               >Se o seu objetivo está alinhado com o back-end, e você deseja
               construir arquiteturas escaláveis e simples para a web utilizando
@@ -71,8 +85,8 @@
           <div><img src="" alt="" /></div>
         </div> -->
 
-        <!-- <div class="programs__content__bottom__rafael">
-          <div class="programs__content__bottom__rafael__skills">
+        <!-- <div class="programs__content__educator__rafael">
+          <div class="programs__content__educator__rafael__skills">
             <strong
               >Se o seu objetivo está alinhado com o back-end, e você deseja
               construir aplicações distribuídas, escaláveis e tolerantes a
@@ -92,7 +106,7 @@
           <div><img src="" alt="" /></div>
         </div> -->
 
-        <!-- <div class="programs__content__bottom__rodrigo">
+        <!-- <div class="programs__content__educator__rodrigo">
           <div class="programs__content__bottom__rodrigo__skills">
             <strong
               >Se o seu objetivo está alinhado com desenvolvimento mobile, e
@@ -113,7 +127,7 @@
           <div><img src="" alt="" /></div>
         </div> -->
 
-        <!-- <div class="programs__content__bottom__gabriel">
+        <!-- <div class="programs__content__educator__gabriel">
           <div class="programs__content__bottom__gabriel__skills">
             <strong
               >Se o seu objetivo está alinhado com desenvolvimento mobile de
@@ -141,7 +155,7 @@
 <style lang="scss" scoped>
 .programs {
   background: var(--darker-gradient-left);
-
+  border-bottom: 1px solid rgba(255, 255, 255, 0.123);
   &__content {
     display: flex;
     width: 80%;
@@ -165,7 +179,7 @@
         }
       }
     }
-    &__bottom {
+    &__educator {
       display: flex;
       &__diego {
         display: flex;
@@ -207,87 +221,145 @@
             margin-bottom: 36px;
           }
           &__github {
-            background: #29292e;
+            display: flex;
+            background: #202024;
+            align-items: center;
+            border-radius: 5px;
             width: 152px;
             height: 52px;
+            &__img {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background: #29292e;
+              border-top-left-radius: 5px;
+              border-bottom-left-radius: 5px;
+              width: 48px;
+              height: 52px;
+              img {
+                width: 20px;
+                height: 20px;
+              }
+            }
+            strong {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 12px;
+              font-weight: 700;
+              margin-left: 30px;
+              color: #e1e1e6;
+            }
           }
-        }
-        &__img {
-          img {
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-          }
-        }
-      }
-      &__daniele {
-        display: flex;
-        padding: unset;
-        border-radius: 5px;
-        flex-direction: row;
-        width: 736px;
-        &__skills {
-          width: 480px;
-          height: 580px;
-          strong {
-            width: 400px;
-            height: 56px;
-            color: #e1e1e6;
-            font-size: 18px;
-          }
-        }
-      }
-      &__rafael {
-        display: flex;
-        padding: unset;
-        border-radius: 5px;
-        flex-direction: row;
-        width: 736px;
-        &__skills {
-          width: 480px;
-          height: 580px;
-          padding: 40px;
-          strong {
-            width: 400px;
-            height: 56px;
-            color: #e1e1e6;
-            font-size: 18px;
-          }
-        }
-      }
-      &__rodrigo {
-        display: flex;
-        padding: unset;
-        border-radius: 5px;
-        flex-direction: row;
-        width: 736px;
-        &__skills {
-          width: 480px;
-          height: 580px;
-          padding: 40px;
-          strong {
-            width: 400px;
-            height: 56px;
-            color: #e1e1e6;
-            font-size: 18px;
+          &__insta {
+            display: flex;
+            background: #202024;
+            align-items: center;
+
+            border-radius: 5px;
+            width: 152px;
+            height: 52px;
+            &__img {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background: #29292e;
+              border-top-left-radius: 5px;
+              border-bottom-left-radius: 5px;
+              width: 48px;
+              height: 52px;
+              img {
+                width: 20px;
+                height: 20px;
+              }
+            }
+            strong {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 12px;
+              font-weight: 700;
+              margin-left: 30px;
+              color: #e1e1e6;
+            }
           }
         }
       }
-      &__gabriel {
-        display: flex;
-        padding: unset;
-        border-radius: 5px;
-        flex-direction: row;
-        width: 736px;
-        &__skills {
-          width: 480px;
-          height: 580px;
-          padding: 40px;
-          strong {
-            width: 400px;
-            height: 56px;
-            color: #e1e1e6;
-            font-size: 18px;
-          }
+      &__img {
+        img {
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+      }
+    }
+    &__daniele {
+      display: flex;
+      padding: unset;
+      border-radius: 5px;
+      flex-direction: row;
+      width: 736px;
+      &__skills {
+        width: 480px;
+        height: 580px;
+        strong {
+          width: 400px;
+          height: 56px;
+          color: #e1e1e6;
+          font-size: 18px;
+        }
+      }
+    }
+    &__rafael {
+      display: flex;
+      padding: unset;
+      border-radius: 5px;
+      flex-direction: row;
+      width: 736px;
+      &__skills {
+        width: 480px;
+        height: 580px;
+        padding: 40px;
+        strong {
+          width: 400px;
+          height: 56px;
+          color: #e1e1e6;
+          font-size: 18px;
+        }
+      }
+    }
+    &__rodrigo {
+      display: flex;
+      padding: unset;
+      border-radius: 5px;
+      flex-direction: row;
+      width: 736px;
+      &__skills {
+        width: 480px;
+        height: 580px;
+        padding: 40px;
+        strong {
+          width: 400px;
+          height: 56px;
+          color: #e1e1e6;
+          font-size: 18px;
+        }
+      }
+    }
+    &__gabriel {
+      display: flex;
+      padding: unset;
+      border-radius: 5px;
+      flex-direction: row;
+      width: 736px;
+      &__skills {
+        width: 480px;
+        height: 580px;
+        padding: 40px;
+        strong {
+          width: 400px;
+          height: 56px;
+          color: #e1e1e6;
+          font-size: 18px;
         }
       }
     }

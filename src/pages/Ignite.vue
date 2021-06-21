@@ -35,16 +35,28 @@
     </div>
     <TheIgnite />
     <Educator />
+    <Programing />
+    <Means />
+    <Structure />
+    <Depoiments />
   </section>
 </template>
 
 <script>
 import TheIgnite from "@/components/Ignite/TheIgnite";
 import Educator from "@/components/Ignite/Educator";
+import Programing from "@/components/Ignite/Programing";
+import Means from "@/components/Ignite/Means";
+import Structure from "@/components/Ignite/Structure";
+import Depoiments from "@/components/Ignite/Depoiments";
 export default {
   components: {
     TheIgnite,
     Educator,
+    Programing,
+    Means,
+    Structure,
+    Depoiments,
   },
 };
 </script>
