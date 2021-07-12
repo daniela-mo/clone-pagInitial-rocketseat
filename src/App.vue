@@ -37,6 +37,7 @@
     rgba(50, 50, 56, 0),
     rgb(50, 50, 56) 113.36%
   );
+  --orange-darkness: #593918;
 }
 
 .container {

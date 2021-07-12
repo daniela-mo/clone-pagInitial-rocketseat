@@ -15,12 +15,22 @@
         </div>
       </div>
       <div class="programs__content__educator">
-        <div>
-          <button>Ignite ReactJS</button>
-          <button>Ignite Node.js</button>
-          <button>Ignite Elixir</button>
-          <button>Ignite React Native</button>
-          <button>Ignite Flutter</button>
+        <div class="programs__content__educator__trails">
+          <button class="programs__content__educator__trails__react">
+            Ignite ReactJS
+          </button>
+          <button class="programs__content__educator__trails__node">
+            Ignite Node.js
+          </button>
+          <button class="programs__content__educator__trails__elixir">
+            Ignite Elixir
+          </button>
+          <button class="programs__content__educator__trails__rnative">
+            Ignite React Native
+          </button>
+          <button class="programs__content__educator__trails__flutter">
+            Ignite Flutter
+          </button>
         </div>
 
         <div class="programs__content__educator__diego">
@@ -39,20 +49,26 @@
               de devs na nossa plataforma - é o educador que vai te guiar no
               Ignite ReactJS.
             </p>
-            <div>
-              <div class="programs__content__educator__diego__skills__github">
+
+            <div class="programs__content__educator__diego__skills__links">
+              <div
+                class="programs__content__educator__diego__skills__links__rede"
+              >
                 <a href="https://github.com/diego3g" />
+
                 <div
-                  class="programs__content__educator__diego__skills__github__img"
+                  class="programs__content__educator__diego__skills__links__rede__imgRede"
                 >
                   <img alt="Github" src="@/assets/min-git.png" />
                 </div>
                 <strong>GITHUB</strong>
               </div>
-              <div class="programs__content__educator__diego__skills__insta">
+              <div
+                class="programs__content__educator__diego__skills__links__rede"
+              >
                 <a href="https://github.com/diego3g" />
                 <div
-                  class="programs__content__educator__diego__skills__insta__img"
+                  class="programs__content__educator__diego__skills__links__rede__imgRede"
                 >
                   <img alt="Instagram" src="@/assets/min-insta.png" />
                 </div>
@@ -165,6 +181,7 @@
     flex-direction: column;
     &__text {
       display: flex;
+      padding: 160px 0;
       &__h2 {
         h2 {
           font-size: 48px;
@@ -181,6 +198,78 @@
     }
     &__educator {
       display: flex;
+      &__trails {
+        display: flex;
+        flex-direction: column;
+        &__react {
+          background: linear-gradient(90deg, #182328, rgba(18, 18, 20, 0));
+          width: 320px;
+          height: 93px;
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 16px 0 16px 56px;
+          justify-content: center;
+          border-radius: 5px;
+          outline: 0;
+          border: none;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+        &__node {
+          background: linear-gradient(90deg, #21381b, rgba(18, 18, 20, 0));
+
+          width: 320px;
+          height: 93px;
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 16px 0 16px 56px;
+          justify-content: center;
+          border-radius: 5px;
+          border: none;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+        &__elixir {
+          background: linear-gradient(90deg, #2e2340, rgba(18, 18, 20, 0));
+          width: 320px;
+          height: 93px;
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 16px 0 16px 56px;
+          justify-content: center;
+          border-radius: 5px;
+          border: none;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+        &__rnative {
+          background: linear-gradient(90deg, #153779, rgba(18, 18, 20, 0));
+          width: 320px;
+          height: 93px;
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 16px 0 16px 56px;
+          justify-content: center;
+          border-radius: 5px;
+          border: none;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+        &__flutter {
+          background: linear-gradient(90deg, #074b87, rgba(18, 18, 20, 0));
+          width: 320px;
+          height: 93px;
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 16px 0 16px 56px;
+          justify-content: center;
+          border-radius: 5px;
+          border: none;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+      }
+
       &__diego {
         display: flex;
         background: var(--react-gradient);
@@ -205,90 +294,95 @@
             font-size: 24px;
             color: #e1e1e6;
             line-height: 30px;
-            margin: 24px 0;
+            margin: 24px 0 8px;
           }
           span {
             font-size: 16px;
             color: #2ac7e3;
             font-size: 16px;
             line-height: 26px;
-            margin-bottom: 16px;
           }
           &__two {
             font-size: 16px;
             color: #a8a8b3;
             line-height: 26px;
-            margin-bottom: 36px;
+            margin: 16px 0 36px;
           }
-          &__github {
+          &__links {
+            width: 320px;
             display: flex;
-            background: #202024;
             align-items: center;
-            border-radius: 5px;
-            width: 152px;
-            height: 52px;
-            &__img {
+            justify-content: space-between;
+            &__rede {
               display: flex;
+              background: #202024;
               align-items: center;
-              justify-content: center;
-              background: #29292e;
-              border-top-left-radius: 5px;
-              border-bottom-left-radius: 5px;
-              width: 48px;
+              border-radius: 5px;
+              width: 152px;
               height: 52px;
-              img {
-                width: 20px;
-                height: 20px;
+              &__imgRede {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #29292e;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                width: 48px;
+                height: 52px;
+                img {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+              strong {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                font-weight: 700;
+                margin-left: 30px;
+                color: #e1e1e6;
               }
             }
-            strong {
+            &__rede {
               display: flex;
-              justify-content: center;
+              background: #202024;
               align-items: center;
-              font-size: 12px;
-              font-weight: 700;
-              margin-left: 30px;
-              color: #e1e1e6;
-            }
-          }
-          &__insta {
-            display: flex;
-            background: #202024;
-            align-items: center;
-
-            border-radius: 5px;
-            width: 152px;
-            height: 52px;
-            &__img {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              background: #29292e;
-              border-top-left-radius: 5px;
-              border-bottom-left-radius: 5px;
-              width: 48px;
+              border-radius: 5px;
+              width: 152px;
               height: 52px;
-              img {
-                width: 20px;
-                height: 20px;
+              &__imgRede {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #29292e;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                width: 48px;
+                height: 52px;
+                img {
+                  width: 20px;
+                  height: 20px;
+                }
               }
-            }
-            strong {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              font-size: 12px;
-              font-weight: 700;
-              margin-left: 30px;
-              color: #e1e1e6;
+              strong {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                font-weight: 700;
+                margin-left: 30px;
+                color: #e1e1e6;
+              }
             }
           }
         }
-      }
-      &__img {
-        img {
-          border-top-right-radius: 5px;
-          border-bottom-right-radius: 5px;
+
+        &__img {
+          img {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+          }
         }
       }
     }

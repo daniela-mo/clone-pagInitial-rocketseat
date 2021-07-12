@@ -34,29 +34,32 @@
       </div>
     </div>
     <TheIgnite />
-    <Educator />
-    <Programing />
-    <Means />
+    <Trails />
+    <IgniteHigher />
+    <YouEquipped />
     <Structure />
     <Depoiments />
+    <Important />
   </section>
 </template>
 
 <script>
 import TheIgnite from "@/components/Ignite/TheIgnite";
-import Educator from "@/components/Ignite/Educator";
-import Programing from "@/components/Ignite/Programing";
-import Means from "@/components/Ignite/Means";
+import Trails from "@/components/Ignite/Trails";
+import IgniteHigher from "@/components/Ignite/IgniteHigher";
+import YouEquipped from "@/components/Ignite/YouEquipped";
 import Structure from "@/components/Ignite/Structure";
 import Depoiments from "@/components/Ignite/Depoiments";
+import Important from "@/components/Ignite/Important";
 export default {
   components: {
     TheIgnite,
-    Educator,
-    Programing,
-    Means,
+    Trails,
+    IgniteHigher,
+    YouEquipped,
     Structure,
     Depoiments,
+    Important,
   },
 };
 </script>

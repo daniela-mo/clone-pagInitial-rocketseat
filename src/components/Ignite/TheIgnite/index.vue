@@ -7,7 +7,6 @@
             <strong>Evolua na direção certa,</strong> com foco no que importa
             para você.
           </h3>
-
           <svg
             width="539"
             height="400"
@@ -143,10 +142,16 @@
     padding: 160px 0 80px 0;
     &__left {
       width: 539px;
-      height: 530px;
-      position: relative;
+      height: 470px;
+      display: flex;
+
       &__text {
         width: 350px;
+        height: 100px;
+
+        svg {
+          margin: -70px 0 30px -9px;
+        }
         h3 {
           font-size: 32px;
           line-height: 42px;
@@ -177,11 +182,14 @@
       span {
         margin-top: 24px;
         font-size: 18px;
-        color: #a8a8b3;
+        line-height: 28px;
+        color: #e1e1e6;
       }
       p {
         margin-top: 24px;
         font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
         color: #a8a8b3;
       }
     }
