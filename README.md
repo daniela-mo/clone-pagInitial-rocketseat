@@ -1,19 +1,6 @@
-# Rocketseat-clone
+Desenvolvimento do clone do site da Rocketseat.
 
-## Project setup
-```
-yarn install
-```
+Direitos autorais : Rocketseat.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Desenvolvimento com intuito de prática apenas.
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
