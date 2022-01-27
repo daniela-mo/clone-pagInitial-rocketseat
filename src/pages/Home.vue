@@ -35,17 +35,20 @@
     <Enterprise />
     <Content />
     <EventsRocket />
+    <Acount />
   </section>
 </template>
 
 <script>
-import Studants from "@/components/Studants";
-import Stage from "@/components/Stage";
-import Results from "@/components/Results";
-import Evolution from "@/components/Evolution";
-import Enterprise from "@/components/Enterprise";
-import Content from "@/components/Content";
-import EventsRocket from "@/components/EventsRocket";
+import Studants from "@/components/Home/Studants";
+import Results from "@/components/Home/Results";
+import Stage from "@/components/Home/Stage";
+import Evolution from "@/components/Home/Evolution";
+import Enterprise from "@/components/Home/Enterprise";
+import Content from "@/components/Home/Content";
+import EventsRocket from "@/components/Home/EventsRocket";
+import Acount from "@/components/Home/Acount";
+
 export default {
   components: {
     Studants,
@@ -55,6 +58,7 @@ export default {
     Enterprise,
     Content,
     EventsRocket,
+    Acount,
   },
 };
 </script>
@@ -67,13 +71,14 @@ export default {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+  margin: 0 auto;
   &__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    max-width: 1170px;
-    margin: 0 auto;
+    margin: 30px 0;
+    max-width: 1120px;
     &__text {
       display: flex;
       flex-direction: column;
@@ -107,8 +112,6 @@ export default {
       }
       &__button {
         margin-top: 40px;
-        // padding: 25px 50px;
-
         border: none;
         border-radius: 5px;
         font-size: 16px;
@@ -116,6 +119,7 @@ export default {
         color: #e1e1e6;
         background: #8257e5;
         width: 266px;
+        cursor: pointer;
         height: 64px;
         font-family: "Roboto", sans-serif;
       }

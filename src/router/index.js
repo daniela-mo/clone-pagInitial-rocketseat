@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../pages/Home.vue";
-import Discover from "../pages/Discover.vue";
+import Ignite from "../pages/Ignite.vue";
 
 Vue.use(VueRouter);
 
@@ -12,9 +12,9 @@ const routes = [
     component: Home,
   },
   {
-    path: "/discover",
-    name: "Discover",
-    component: Discover,
+    path: "/ignite",
+    name: "Ignite",
+    component: Ignite,
   },
 ];
 

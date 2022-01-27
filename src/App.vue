@@ -1,18 +1,8 @@
 <template>
   <div id="app">
-    <Header />
     <router-view />
   </div>
 </template>
-
-<script>
-import Header from "@/components/Header";
-export default {
-  components: {
-    Header,
-  },
-};
-</script>
 
 <style lang="scss">
 *,
@@ -20,7 +10,6 @@ export default {
 *::after {
   padding: 0;
   margin: 0;
-  background: #121214;
   box-sizing: border-box;
 }
 :root {
@@ -30,12 +19,25 @@ export default {
   --color-text: #fff;
   --color-light-silver: #adadad52;
   --shape-hover: #29292e;
+  --background: #121214;
   --darker-gradient-right: linear-gradient(270deg, #09090a, #121214);
-  --primary-gradient-left: linear-gradient(
+  --darker-gradient-left: linear-gradient(270deg, #121214, #09090a);
+  --purple-gradient: linear-gradient(90deg, #8257e6, rgba(130, 87, 230, 0.25));
+  --darke-gradient: linear-gradient(90deg, #202024, rgba(32, 32, 36, 0.2));
+  --react-gradient: linear-gradient(180deg, #182328, rgba(18, 18, 20, 0));
+  --blue-gradient-right: linear-gradient(
     90deg,
-    #8257e6,
-    rgba(130, 87, 230, 0.25)
+    #202024,
+    rgba(32, 32, 36, 0.25)
   );
+  --green-darker: #0f3924;
+  --green: #04d361;
+  --linear: linear-gradient(
+    270deg,
+    rgba(50, 50, 56, 0),
+    rgb(50, 50, 56) 113.36%
+  );
+  --orange-darkness: #593918;
 }
 
 .container {
